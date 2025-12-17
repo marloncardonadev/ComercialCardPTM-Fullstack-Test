@@ -1,6 +1,6 @@
 # 📦 Gestión de Productos – Prueba Técnica
 
-Este proyecto corresponde a la **Prueba Técnica para el cargo Analista Desarrollador**.  
+Este proyecto corresponde a la **Prueba Técnica para el cargo Desarrollador Full Stack**.  
 Consiste en una aplicación **Full Stack** con **Backend en Spring Boot (Java)** y **Frontend en React + TypeScript**, que permite la gestión de productos, métricas de inventario y funcionalidades adicionales solicitadas.
 
 ---
@@ -24,22 +24,6 @@ Consiste en una aplicación **Full Stack** con **Backend en Spring Boot (Java)**
 
 ---
 
-## 📂 Estructura del Proyecto
-
-```
-root/
- ├── backend/
- │   ├── src/main/java/com/comercialcard/crudapp
- │   ├── src/main/resources
- │   └── pom.xml
- └── frontend/
-     ├── src/
-     ├── package.json
-     └── vite.config.ts
-```
-
----
-
 ## ⚙️ Requisitos Previos
 
 - Java 17+
@@ -47,18 +31,6 @@ root/
 - Node.js 18+
 - MySQL 8+
 - Git
-
----
-
-## 🗄️ Base de Datos
-
-Crear la base de datos en MySQL:
-
-```sql
-CREATE DATABASE crud_app;
-```
-
-Las tablas se generan automáticamente al iniciar el backend.
 
 ---
 
@@ -80,7 +52,7 @@ http://localhost:8080
 ## ▶️ Ejecución del Frontend
 
 ```bash
-cd frontend
+cd ptm-frontend
 npm install
 npm run dev
 ```
@@ -153,24 +125,9 @@ http://localhost:5173
 
 ---
 
-## 🧪 Pruebas
-
-La arquitectura está preparada para pruebas unitarias sobre:
-- Servicios de dominio
-- Casos de uso
-- Algoritmo de combinaciones
-
----
-
 ## 👤 Autor
 
-**Marlon Cardona**  
-Prueba Técnica – Analista Desarrollador
-
----
-
-## ✅ Estado del Proyecto
-
-✔ Funcional  
-✔ Probado localmente  
-✔ Listo para evaluación
+**Marlon Orlando Cardona Jaramillo**
+- 💼 Desarrollador Fullstack | .NET, Node.js, Python, Java, Angular, React | Cloud (Azure & AWS) 
+- 📧 marlon18_@hotmail.com
+- 🔗 [LinkedIn](www.linkedin.com/in/marlon880215)
