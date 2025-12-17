@@ -34,10 +34,28 @@ Consiste en una aplicación **Full Stack** con **Backend en Spring Boot (Java)**
 
 ---
 
+## ▶️ Base de Datos
+
+Se debe de ejecutar en MySql el script para la creación de la base de datos, la tabla de los productos y unos 20 productos que esta en la siguiente carpeta del repositorio:
+
+```
+/DataBase/crud_app.sql
+```
+
+Despues de ejecutar el script cambiar la cadena de conexion del archivo .yaml, que esta en la siguiente ruta del repositorio
+
+```
+/ComercialCardPTM/src/main/resources/application.yaml
+```
+
+<img width="617" height="367" alt="image" src="https://github.com/user-attachments/assets/bdf27114-e5a6-4a7a-b442-716afd6b614f" />
+
+---
+
 ## ▶️ Ejecución del Backend
 
 ```bash
-cd backend
+cd ComercialCardPTM
 mvn clean spring-boot:run
 ```
 
