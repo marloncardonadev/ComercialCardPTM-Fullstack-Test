@@ -1,6 +1,6 @@
 # 📦 Gestión de Productos – Prueba Técnica
 
-Este proyecto corresponde a la **Prueba Técnica para el cargo Analista Desarrollador**.  
+Este proyecto corresponde a la **Prueba Técnica para el cargo Desarrollador Full Stack**.  
 Consiste en una aplicación **Full Stack** con **Backend en Spring Boot (Java)** y **Frontend en React + TypeScript**, que permite la gestión de productos, métricas de inventario y funcionalidades adicionales solicitadas.
 
 ---
@@ -24,22 +24,6 @@ Consiste en una aplicación **Full Stack** con **Backend en Spring Boot (Java)**
 
 ---
 
-## 📂 Estructura del Proyecto
-
-```
-root/
- ├── backend/
- │   ├── src/main/java/com/comercialcard/crudapp
- │   ├── src/main/resources
- │   └── pom.xml
- └── frontend/
-     ├── src/
-     ├── package.json
-     └── vite.config.ts
-```
-
----
-
 ## ⚙️ Requisitos Previos
 
 - Java 17+
@@ -50,22 +34,28 @@ root/
 
 ---
 
-## 🗄️ Base de Datos
+## ▶️ Base de Datos
 
-Crear la base de datos en MySQL:
+Se debe de ejecutar en MySql el script para la creación de la base de datos, la tabla de los productos y unos 20 productos que esta en la siguiente carpeta del repositorio:
 
-```sql
-CREATE DATABASE crud_app;
+```
+/DataBase/crud_app.sql
 ```
 
-Las tablas se generan automáticamente al iniciar el backend.
+Despues de ejecutar el script cambiar la cadena de conexion del archivo .yaml, que esta en la siguiente ruta del repositorio
+
+```
+/ComercialCardPTM/src/main/resources/application.yaml
+```
+
+<img width="617" height="367" alt="image" src="https://github.com/user-attachments/assets/bdf27114-e5a6-4a7a-b442-716afd6b614f" />
 
 ---
 
 ## ▶️ Ejecución del Backend
 
 ```bash
-cd backend
+cd ComercialCardPTM
 mvn clean spring-boot:run
 ```
 
@@ -80,7 +70,7 @@ http://localhost:8080
 ## ▶️ Ejecución del Frontend
 
 ```bash
-cd frontend
+cd ptm-frontend
 npm install
 npm run dev
 ```
@@ -153,24 +143,9 @@ http://localhost:5173
 
 ---
 
-## 🧪 Pruebas
-
-La arquitectura está preparada para pruebas unitarias sobre:
-- Servicios de dominio
-- Casos de uso
-- Algoritmo de combinaciones
-
----
-
 ## 👤 Autor
 
-**Marlon Cardona**  
-Prueba Técnica – Analista Desarrollador
-
----
-
-## ✅ Estado del Proyecto
-
-✔ Funcional  
-✔ Probado localmente  
-✔ Listo para evaluación
+**Marlon Orlando Cardona Jaramillo**
+- 💼 Desarrollador Fullstack | .NET, Node.js, Python, Java, Angular, React | Cloud (Azure & AWS) 
+- 📧 marlon18_@hotmail.com
+- 🔗 [LinkedIn](www.linkedin.com/in/marlon880215)
